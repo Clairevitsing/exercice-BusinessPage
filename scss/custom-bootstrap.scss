@@ -1,0 +1,26 @@
+// $dblue: #2538e5;
+
+// $btn-padding-y:               0.5rem !default;
+// $btn-padding-x:               1.5rem !default;
+// $btn-border-width:            2px !default;
+// $btn-font-size:               0.7rem !default;
+// $dgreen:rgb(5, 244, 25);
+
+/* Pour créer de nouvelles classes : 
+Importer les fichiers dans cet ordre:
+functions.scss 
+et
+variables.scss
+*/
+@import "../bootstrap/scss/_functions.scss";
+@import "../bootstrap/scss/_variables.scss";
+
+$custom-colors: (
+  "dblue": #1e0cc2
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+@import "../bootstrap/scss/bootstrap";

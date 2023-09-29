@@ -1,0 +1,15 @@
+.banniere{
+    background: url(../images/bg-masthead.jpg) no-repeat center;
+    background-size:cover;
+    height:100vh;
+}
+
+img{
+    max-width:100%;
+}
+
+.bas{
+    background: url(../images/bg-masthead.jpg) no-repeat center;
+    background-size:cover;
+    height:50vh;
+}
